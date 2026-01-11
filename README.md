@@ -16,7 +16,7 @@ Bu depo, bir iOS geliştiricisinin proje ortamını kurmasını, mimari yapıyı
 Bu projede modern iOS geliştirme standartları takip edilmiştir:
 
 - **Dil:** Swift
-- **Mimari:** MVVM (Model-View-ViewModel) / Clean Architecture (Tercihinize göre düzenleyin)
+- **Mimari:** MVVM (Model-View-ViewModel) / Clean Architecture 
 - **UI:** SwiftUI veya UIKit (Programmatic/Storyboard)
 - **Network:** URLSession / Alamofire
 - **Bağımlılık Yönetimi:** Swift Package Manager (SPM) / CocoaPods
@@ -68,8 +68,6 @@ Proje, sürdürülebilir ve test edilebilir bir yapı için aşağıdaki klasör
 
 ## 📝 Kod Standartları
 
-* [Swift API Design Guidelines](https://swift.org/documentation/api-design-guidelines/) takip edilmektedir.
-* Kod stilini korumak için (varsa) **SwiftLint** kullanılmaktadır.
 * Değişken ve fonksiyon isimlendirmelerinde *camelCase* tercih edilir.
 
 ## 🎯 Onboarding Görevleri
@@ -82,7 +80,7 @@ Yeni katılan arkadaşların tamamlaması beklenen örnek görevler:
 
 ## 🤝 Katkıda Bulunma
 
-1. Bu projeyi çatallayın (Fork).
+1. Bu projeyi Forklayın.
 2. Yeni bir özellik dalı (Branch) oluşturun (`git checkout -b feature/YeniOzellik`).
 3. Değişikliklerinizi kaydedin (`git commit -m 'Yeni özellik eklendi'`).
 4. Dalınızı gönderin (`git push origin feature/YeniOzellik`).
