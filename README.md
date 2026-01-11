@@ -1,12 +1,3 @@
-Harika! Repo ismini ve profilini analiz ettim. Bir iOS Geliştiricisi (özellikle Innovance ve TurkishKit geçmişinle) olduğun için bu reponun muhtemelen yeni başlayanlar için hazırlanmış bir **iOS/Swift Onboarding** projesi olduğunu tahmin ediyorum.
-
-Senin için profesyonel, şık ve açıklayıcı bir **README.md** taslağı hazırladım. Bu taslağı kopyalayıp projenin içeriğine göre ufak düzenlemeler yaparak kullanabilirsin.
-
----
-
-### Projen için README Taslağı
-
-```markdown
 # 🚀 Tuna-Onboarding
 
 ![Swift](https://img.shields.io/badge/Swift-5.0+-orange.svg)
@@ -106,18 +97,3 @@ Yeni katılan arkadaşların tamamlaması beklenen örnek görevler:
 ---
 
 ⭐️ Bu proje size yardımcı olduysa bir yıldız bırakmayı unutmayın!
-
-```
-
----
-
-### Neleri Değiştirmelisin?
-1. **Mimari:** Eğer MVVM değil de VIPER veya TCA kullanıyorsan "Mimari Yapı" kısmını güncelle.
-2. **Badge'ler:** Projen iOS 14 destekliyorsa badge kısmını `iOS-14.0+` yapabilirsin.
-3. **Görevler:** Onboarding kapsamında arkadaşlara ne yaptıracaksan "Onboarding Görevleri" kısmına onları yaz.
-
-**Bonus İpucu:** Reponun ana sayfasında sağ taraftaki "About" kısmına projenin ne olduğunu (örneğin: "iOS Onboarding Project for Team Alpha") yazmayı ve uygun etiketleri (ios, swift, onboarding, mvvm) eklemeyi unutma!
-
-Başka bir detay istersen (özel bir kütüphane ekleme vb.) belirtebilirsin, hemen güncelleyelim.
-
-```
