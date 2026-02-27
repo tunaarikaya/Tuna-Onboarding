@@ -143,9 +143,9 @@ struct ChallengeOptionCard: View {
             HStack(spacing: 16) {
                 // Icon
                 if challenge.icon == "rocket" {
-                    Image("rocket")
-                        .resizable()
-                        .scaledToFit()
+                    Image(systemName: "rocket.fill")
+                        .font(.system(size: 24, weight: .medium))
+                        .foregroundColor(.black)
                         .frame(width: 30, height: 30)
                 } else {
                     Image(systemName: challenge.icon)

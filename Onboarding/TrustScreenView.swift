@@ -62,15 +62,16 @@ struct TrustScreenView: View {
                     // Profile photos row
                     HStack(spacing: -8) {
                         ForEach(["pp1", "pp2", "pp3"], id: \.self) { imageName in
-                            Image(imageName)
+                            Image(systemName: "person.circle.fill")
                                 .resizable()
                                 .scaledToFill()
                                 .frame(width: 40, height: 40)
                                 .clipShape(Circle())
+                                .foregroundColor(.gray)
                                 .overlay(
-                                    Circle()
-                                        .stroke(Color.white, lineWidth: 2)
-                                )
+                                     Circle()
+                                         .stroke(Color.white, lineWidth: 2)
+                                 )
                         }
                         
                         Spacer()
@@ -145,11 +146,12 @@ struct TestimonialCard: View {
         VStack(alignment: .leading, spacing: 6) {
             // User info
             HStack(spacing: 12) {
-                Image(profileImage)
-                    .resizable()
-                    .scaledToFill()
-                    .frame(width: 36, height: 36)
-                    .clipShape(Circle())
+                Image(systemName: "person.circle.fill")
+                .resizable()
+                .scaledToFill()
+                .frame(width: 36, height: 36)
+                .clipShape(Circle())
+                .foregroundColor(.gray)
                 
                 VStack(alignment: .leading, spacing: 4) {
                     Text(name)
