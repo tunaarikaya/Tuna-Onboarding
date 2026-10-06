@@ -6,7 +6,7 @@
 [![SwiftUI](https://img.shields.io/badge/UI-SwiftUI-brightgreen.svg)](https://developer.apple.com/xcode/swiftui/)
 [![License](https://img.shields.io/badge/License-MIT-black.svg)](LICENSE)
 
-**Premium-iOS-Onboarding** is a state-of-the-art, production-ready onboarding sequence designed to maximize user retention and provide a high-end first impression. Built entirely with SwiftUI, this framework follows Apple's Human Interface Guidelines (HIG) while pushing the boundaries of modern mobile design.
+**Premium-iOS-Onboarding** is a state-of-the-art, production-ready onboarding sequence designed to maximize user retention and provide a high-end first impression. Built entirely with SwiftUI, this framework follows Apple's Human Interface Guidelines (HIG) while pushing the boundaries of modern mobile design
 
 ---
 
